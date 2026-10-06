@@ -12,7 +12,7 @@ jobs:
           java-version: 17
       - name: Запуск тестируемого сервиса
         run: |
-          java -jar ./artifacts/app-card-delivery.jar &
+          java -jar ./artifacts/app-replan-delivery.jar &
           sleep 10
       - name: Права на gradlew
         run: chmod +x gradlew
